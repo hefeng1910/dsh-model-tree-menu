@@ -1,0 +1,13 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# deps / build
+node_modules/
+dist/
+*.log
+
+# editor
+.idea/
+.vscode/
+*.swp

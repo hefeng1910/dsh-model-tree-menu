@@ -1,0 +1,51 @@
+{
+  "name": "dsh-model-tree-menu",
+  "version": "1.0.0",
+  "description": "DSH 模型选择多级菜单：按「中转站（provider）→ 模型」分组，先选中转站再看该站模型；iOS 18 磨砂玻璃质感，站内支持模糊搜索。",
+  "type": "module",
+  "license": "MIT",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "dsh-plugin",
+    "model-picker",
+    "composer",
+    "ui",
+    "glassmorphism"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourname/dsh-model-tree-menu.git"
+  },
+  "homepage": "https://github.com/yourname/dsh-model-tree-menu#readme",
+  "bugs": {
+    "url": "https://github.com/yourname/dsh-model-tree-menu/issues"
+  },
+  "engines": {
+    "dsh": ">=0.2.1"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg"
+  ],
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-conversation",
+        "@deepseek-ai/dsh-client-ui-model-selection"
+      ]
+    }
+  }
+}

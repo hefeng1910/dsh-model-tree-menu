@@ -1,0 +1,3 @@
+- insert:
+    - id: dsh-model-tree-menu
+      name: '@local/dsh-model-tree-menu'

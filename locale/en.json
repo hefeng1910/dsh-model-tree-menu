@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Model Tree Menu",
+    "description": "Group the model picker by relay (provider) first, then model, in a multi-level menu."
+  }
+}
