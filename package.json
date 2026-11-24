@@ -15,11 +15,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yourname/dsh-model-tree-menu.git"
+    "url": "git+https://github.com/hefeng1910/dsh-model-tree-menu.git"
   },
-  "homepage": "https://github.com/yourname/dsh-model-tree-menu#readme",
+  "homepage": "https://github.com/hefeng1910/dsh-model-tree-menu#readme",
   "bugs": {
-    "url": "https://github.com/yourname/dsh-model-tree-menu/issues"
+    "url": "https://github.com/hefeng1910/dsh-model-tree-menu/issues"
   },
   "engines": {
     "dsh": ">=0.2.1"
